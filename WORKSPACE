@@ -27,6 +27,7 @@ new_git_repository(
     build_file_content = _SCIP_ALL_CONTENT,
     commit = "674cd55c4c609cd6aa2f49037c70195c2f8d46af",
     remote = "https://github.com/scipopt/scip.git",
+    shallow_since = "1667609838 +0100"
 )
 
 _SOPLEX_ALL_CONTENT = """\
@@ -42,4 +43,5 @@ new_git_repository(
     build_file_content = _SOPLEX_ALL_CONTENT,
     commit = "98e1651cc52e21212d88d01983bd8b77bb99c843",
     remote = "https://github.com/scipopt/soplex.git",
+    shallow_since = "1667609884 +0100"
 )

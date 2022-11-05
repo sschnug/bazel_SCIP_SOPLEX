@@ -1,6 +1,21 @@
 # What
 This is a **minimal (!toy!) example** of **library-based** usage of [SCIP](https://www.scipopt.org/) and [SoPlex](https://soplex.zib.de/), focused on **MILP-solving**, using **C++** and based on the [Bazel](https://bazel.build/)-buildsystem using **static-linking**.
 
+It's basically:
+
+- Config
+  - Acquisition of software needed
+  - Build
+- One example each from the original sources
+
+### Examples tested with:
+
+#### Linux
+- GCC 9
+
+#### Windows
+- Visual Studio Community 2019 
+
 # How to use
 
 ## Prep
