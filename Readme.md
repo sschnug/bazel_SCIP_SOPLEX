@@ -108,5 +108,13 @@ It's basically:
 
 (Effects are guesses of mine)
 
+# Remark
+A more production-ready treatment of pairing scip/soplex and bazel is available @ [or-tools](https://github.com/google/or-tools):
+
+- not backed by `rules_foreing_cc` / uses custom patches
+- supports *bliss*
+- **does not use soplex but or-tools own glop as simplex-solver** (i think)
+
+
 # Disclaimer
 - As i said: this is a minimal example -> don't expect too much!
