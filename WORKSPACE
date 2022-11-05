@@ -25,7 +25,7 @@ filegroup(
 new_git_repository(
     name = "scip",
     build_file_content = _SCIP_ALL_CONTENT,
-    branch = "master",
+    commit = "674cd55c4c609cd6aa2f49037c70195c2f8d46af",
     remote = "https://github.com/scipopt/scip.git",
 )
 
@@ -40,6 +40,6 @@ filegroup(
 new_git_repository(
     name = "soplex",
     build_file_content = _SOPLEX_ALL_CONTENT,
-    branch = "master",
+    commit = "98e1651cc52e21212d88d01983bd8b77bb99c843",
     remote = "https://github.com/scipopt/soplex.git",
 )
